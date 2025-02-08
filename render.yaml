@@ -1,0 +1,36 @@
+services:
+  - type: web
+    name: tailhodler-server
+    env: node
+    region: frankfurt
+    plan: free
+    buildCommand: cd game-token-system/server && npm install
+    startCommand: cd game-token-system/server && npm start
+    envVars:
+      - key: NODE_ENV
+        value: production
+      - key: PORT
+        value: 3001
+      - key: TATUM_API_KEY
+        sync: false
+      - key: CORS_ORIGIN
+        fromService:
+          name: tailhodler-client
+          type: web
+          property: url
+
+  - type: web
+    name: tailhodler-client
+    env: node
+    region: frankfurt
+    plan: free
+    buildCommand: cd game-token-system/client && npm install && npm run build
+    startCommand: cd game-token-system/client && npm start
+    envVars:
+      - key: NODE_ENV
+        value: production
+      - key: NEXT_PUBLIC_API_URL
+        fromService:
+          name: tailhodler-server
+          type: web
+          property: url 
