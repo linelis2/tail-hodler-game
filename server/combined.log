@@ -1,0 +1,133 @@
+{"betAmount":10000,"level":"info","message":"Received play validation request","timestamp":"2025-02-08T15:32:06.965Z","wallet":"H97toHKefZyd8aKDFWeitgFYYc7V1Soj5DcUu5Gf9Mnp"}
+{"level":"debug","message":"Checking balance","timestamp":"2025-02-08T15:32:06.971Z","tokenMint":"CrbhNV4SUon8QVgCyQg7Khgy6GgcEy8ACDjkKvPrpump","wallet":"H97toHKefZyd8aKDFWeitgFYYc7V1Soj5DcUu5Gf9Mnp"}
+{"error":"","level":"error","message":"Balance check failed","stack":"TokenInvalidAccountOwnerError\n    at unpackAccount (C:\\Users\\linas\\Desktop\\wallet balance plus jacpot\\game-token-system\\server\\node_modules\\@solana\\spl-token\\lib\\cjs\\state\\account.js:117:15)\n    at C:\\Users\\linas\\Desktop\\wallet balance plus jacpot\\game-token-system\\server\\node_modules\\@solana\\spl-token\\lib\\cjs\\state\\account.js:56:16\n    at Generator.next (<anonymous>)\n    at fulfilled (C:\\Users\\linas\\Desktop\\wallet balance plus jacpot\\game-token-system\\server\\node_modules\\@solana\\spl-token\\lib\\cjs\\state\\account.js:5:58)\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)","timestamp":"2025-02-08T15:32:07.456Z","wallet":"H97toHKefZyd8aKDFWeitgFYYc7V1Soj5DcUu5Gf9Mnp"}
+{"betAmount":10000,"level":"info","message":"Received play validation request","timestamp":"2025-02-08T15:35:00.927Z","wallet":"H97toHKefZyd8aKDFWeitgFYYc7V1Soj5DcUu5Gf9Mnp"}
+{"level":"debug","message":"Checking balance","timestamp":"2025-02-08T15:35:00.932Z","tokenMint":"CrbhNV4SUon8QVgCyQg7Khgy6GgcEy8ACDjkKvPrpump","wallet":"H97toHKefZyd8aKDFWeitgFYYc7V1Soj5DcUu5Gf9Mnp"}
+{"level":"debug","message":"Getting token account","timestamp":"2025-02-08T15:35:00.946Z","tokenAccountAddress":"HY8gPxMybzDX14voxVqmTLpER3WG7cgB3UWZA9ATEF9v"}
+{"balance":110714,"betAmount":10000,"level":"info","message":"Balance check","timestamp":"2025-02-08T15:35:01.479Z","wallet":"H97toHKefZyd8aKDFWeitgFYYc7V1Soj5DcUu5Gf9Mnp"}
+{"level":"info","message":"Game result generated","outcome":"lose","timestamp":"2025-02-08T15:35:01.480Z","wallet":"H97toHKefZyd8aKDFWeitgFYYc7V1Soj5DcUu5Gf9Mnp"}
+{"betAmount":10000,"level":"info","message":"Play validated successfully","outcome":"lose","playerStats":{"lastPlay":1739028900931,"playCount":1,"totalBets":10000},"timestamp":"2025-02-08T15:35:01.482Z","wallet":"H97toHKefZyd8aKDFWeitgFYYc7V1Soj5DcUu5Gf9Mnp"}
+{"betAmount":10000,"level":"info","message":"Received play validation request","timestamp":"2025-02-08T15:35:17.691Z","wallet":"H97toHKefZyd8aKDFWeitgFYYc7V1Soj5DcUu5Gf9Mnp"}
+{"level":"debug","message":"Checking balance","timestamp":"2025-02-08T15:35:17.693Z","tokenMint":"CrbhNV4SUon8QVgCyQg7Khgy6GgcEy8ACDjkKvPrpump","wallet":"H97toHKefZyd8aKDFWeitgFYYc7V1Soj5DcUu5Gf9Mnp"}
+{"level":"debug","message":"Getting token account","timestamp":"2025-02-08T15:35:17.696Z","tokenAccountAddress":"HY8gPxMybzDX14voxVqmTLpER3WG7cgB3UWZA9ATEF9v"}
+{"balance":110714,"betAmount":10000,"level":"info","message":"Balance check","timestamp":"2025-02-08T15:35:18.074Z","wallet":"H97toHKefZyd8aKDFWeitgFYYc7V1Soj5DcUu5Gf9Mnp"}
+{"level":"info","message":"Game result generated","outcome":"lose","timestamp":"2025-02-08T15:35:18.075Z","wallet":"H97toHKefZyd8aKDFWeitgFYYc7V1Soj5DcUu5Gf9Mnp"}
+{"betAmount":10000,"level":"info","message":"Play validated successfully","outcome":"lose","playerStats":{"lastPlay":1739028917692,"playCount":2,"totalBets":20000},"timestamp":"2025-02-08T15:35:18.076Z","wallet":"H97toHKefZyd8aKDFWeitgFYYc7V1Soj5DcUu5Gf9Mnp"}
+{"betAmount":100,"level":"info","message":"Received play validation request","timestamp":"2025-02-08T15:41:12.769Z","wallet":"H97toHKefZyd8aKDFWeitgFYYc7V1Soj5DcUu5Gf9Mnp"}
+{"level":"debug","message":"Checking balance","timestamp":"2025-02-08T15:41:12.773Z","tokenMint":"CrbhNV4SUon8QVgCyQg7Khgy6GgcEy8ACDjkKvPrpump","wallet":"H97toHKefZyd8aKDFWeitgFYYc7V1Soj5DcUu5Gf9Mnp"}
+{"level":"debug","message":"Getting token account","timestamp":"2025-02-08T15:41:12.777Z","tokenAccountAddress":"HY8gPxMybzDX14voxVqmTLpER3WG7cgB3UWZA9ATEF9v"}
+{"balance":90714,"betAmount":100,"level":"info","message":"Balance check","timestamp":"2025-02-08T15:41:13.367Z","wallet":"H97toHKefZyd8aKDFWeitgFYYc7V1Soj5DcUu5Gf9Mnp"}
+{"level":"info","message":"Game result generated","outcome":"lose","timestamp":"2025-02-08T15:41:13.387Z","wallet":"H97toHKefZyd8aKDFWeitgFYYc7V1Soj5DcUu5Gf9Mnp"}
+{"betAmount":100,"level":"info","message":"Play validated successfully","outcome":"lose","playerStats":{"lastPlay":1739029272772,"playCount":1,"totalBets":100},"timestamp":"2025-02-08T15:41:13.440Z","wallet":"H97toHKefZyd8aKDFWeitgFYYc7V1Soj5DcUu5Gf9Mnp"}
+{"betAmount":100,"level":"info","message":"Received play validation request","timestamp":"2025-02-08T15:41:28.904Z","wallet":"H97toHKefZyd8aKDFWeitgFYYc7V1Soj5DcUu5Gf9Mnp"}
+{"level":"debug","message":"Checking balance","timestamp":"2025-02-08T15:41:28.905Z","tokenMint":"CrbhNV4SUon8QVgCyQg7Khgy6GgcEy8ACDjkKvPrpump","wallet":"H97toHKefZyd8aKDFWeitgFYYc7V1Soj5DcUu5Gf9Mnp"}
+{"level":"debug","message":"Getting token account","timestamp":"2025-02-08T15:41:28.909Z","tokenAccountAddress":"HY8gPxMybzDX14voxVqmTLpER3WG7cgB3UWZA9ATEF9v"}
+{"balance":90714,"betAmount":100,"level":"info","message":"Balance check","timestamp":"2025-02-08T15:41:29.628Z","wallet":"H97toHKefZyd8aKDFWeitgFYYc7V1Soj5DcUu5Gf9Mnp"}
+{"level":"info","message":"Game result generated","outcome":"lose","timestamp":"2025-02-08T15:41:29.629Z","wallet":"H97toHKefZyd8aKDFWeitgFYYc7V1Soj5DcUu5Gf9Mnp"}
+{"betAmount":100,"level":"info","message":"Play validated successfully","outcome":"lose","playerStats":{"lastPlay":1739029288905,"playCount":2,"totalBets":200},"timestamp":"2025-02-08T15:41:29.630Z","wallet":"H97toHKefZyd8aKDFWeitgFYYc7V1Soj5DcUu5Gf9Mnp"}
+{"betAmount":100,"level":"info","message":"Received play validation request","timestamp":"2025-02-08T15:41:38.637Z","wallet":"H97toHKefZyd8aKDFWeitgFYYc7V1Soj5DcUu5Gf9Mnp"}
+{"level":"warn","message":"Rate limit hit","timeSinceLastPlay":9732,"timestamp":"2025-02-08T15:41:38.638Z","wallet":"H97toHKefZyd8aKDFWeitgFYYc7V1Soj5DcUu5Gf9Mnp"}
+{"betAmount":100,"level":"info","message":"Received play validation request","timestamp":"2025-02-08T15:41:50.349Z","wallet":"H97toHKefZyd8aKDFWeitgFYYc7V1Soj5DcUu5Gf9Mnp"}
+{"level":"debug","message":"Checking balance","timestamp":"2025-02-08T15:41:50.350Z","tokenMint":"CrbhNV4SUon8QVgCyQg7Khgy6GgcEy8ACDjkKvPrpump","wallet":"H97toHKefZyd8aKDFWeitgFYYc7V1Soj5DcUu5Gf9Mnp"}
+{"level":"debug","message":"Getting token account","timestamp":"2025-02-08T15:41:50.353Z","tokenAccountAddress":"HY8gPxMybzDX14voxVqmTLpER3WG7cgB3UWZA9ATEF9v"}
+{"balance":90514,"betAmount":100,"level":"info","message":"Balance check","timestamp":"2025-02-08T15:41:50.770Z","wallet":"H97toHKefZyd8aKDFWeitgFYYc7V1Soj5DcUu5Gf9Mnp"}
+{"level":"info","message":"Game result generated","outcome":"lose","timestamp":"2025-02-08T15:41:50.771Z","wallet":"H97toHKefZyd8aKDFWeitgFYYc7V1Soj5DcUu5Gf9Mnp"}
+{"betAmount":100,"level":"info","message":"Play validated successfully","outcome":"lose","playerStats":{"lastPlay":1739029310350,"playCount":3,"totalBets":300},"timestamp":"2025-02-08T15:41:50.772Z","wallet":"H97toHKefZyd8aKDFWeitgFYYc7V1Soj5DcUu5Gf9Mnp"}
+{"betAmount":100,"level":"info","message":"Received play validation request","timestamp":"2025-02-08T15:41:59.972Z","wallet":"H97toHKefZyd8aKDFWeitgFYYc7V1Soj5DcUu5Gf9Mnp"}
+{"level":"warn","message":"Rate limit hit","timeSinceLastPlay":9623,"timestamp":"2025-02-08T15:41:59.973Z","wallet":"H97toHKefZyd8aKDFWeitgFYYc7V1Soj5DcUu5Gf9Mnp"}
+{"betAmount":100,"level":"info","message":"Received play validation request","timestamp":"2025-02-08T15:42:13.994Z","wallet":"H97toHKefZyd8aKDFWeitgFYYc7V1Soj5DcUu5Gf9Mnp"}
+{"level":"debug","message":"Checking balance","timestamp":"2025-02-08T15:42:13.994Z","tokenMint":"CrbhNV4SUon8QVgCyQg7Khgy6GgcEy8ACDjkKvPrpump","wallet":"H97toHKefZyd8aKDFWeitgFYYc7V1Soj5DcUu5Gf9Mnp"}
+{"level":"debug","message":"Getting token account","timestamp":"2025-02-08T15:42:13.997Z","tokenAccountAddress":"HY8gPxMybzDX14voxVqmTLpER3WG7cgB3UWZA9ATEF9v"}
+{"balance":90414,"betAmount":100,"level":"info","message":"Balance check","timestamp":"2025-02-08T15:42:14.348Z","wallet":"H97toHKefZyd8aKDFWeitgFYYc7V1Soj5DcUu5Gf9Mnp"}
+{"level":"info","message":"Game result generated","outcome":"lose","timestamp":"2025-02-08T15:42:14.364Z","wallet":"H97toHKefZyd8aKDFWeitgFYYc7V1Soj5DcUu5Gf9Mnp"}
+{"betAmount":100,"level":"info","message":"Play validated successfully","outcome":"lose","playerStats":{"lastPlay":1739029333994,"playCount":4,"totalBets":400},"timestamp":"2025-02-08T15:42:14.365Z","wallet":"H97toHKefZyd8aKDFWeitgFYYc7V1Soj5DcUu5Gf9Mnp"}
+{"betAmount":100,"level":"info","message":"Received play validation request","timestamp":"2025-02-08T15:43:17.500Z","wallet":"H97toHKefZyd8aKDFWeitgFYYc7V1Soj5DcUu5Gf9Mnp"}
+{"level":"debug","message":"Checking balance","timestamp":"2025-02-08T15:43:17.501Z","tokenMint":"CrbhNV4SUon8QVgCyQg7Khgy6GgcEy8ACDjkKvPrpump","wallet":"H97toHKefZyd8aKDFWeitgFYYc7V1Soj5DcUu5Gf9Mnp"}
+{"level":"debug","message":"Getting token account","timestamp":"2025-02-08T15:43:17.504Z","tokenAccountAddress":"HY8gPxMybzDX14voxVqmTLpER3WG7cgB3UWZA9ATEF9v"}
+{"balance":90314,"betAmount":100,"level":"info","message":"Balance check","timestamp":"2025-02-08T15:43:17.876Z","wallet":"H97toHKefZyd8aKDFWeitgFYYc7V1Soj5DcUu5Gf9Mnp"}
+{"level":"info","message":"Game result generated","outcome":"jackpot","timestamp":"2025-02-08T15:43:17.876Z","wallet":"H97toHKefZyd8aKDFWeitgFYYc7V1Soj5DcUu5Gf9Mnp"}
+{"betAmount":100,"level":"info","message":"Play validated successfully","outcome":"jackpot","playerStats":{"lastPlay":1739029397501,"playCount":5,"totalBets":500},"timestamp":"2025-02-08T15:43:17.877Z","wallet":"H97toHKefZyd8aKDFWeitgFYYc7V1Soj5DcUu5Gf9Mnp"}
+{"betAmount":100,"level":"info","message":"Received play validation request","timestamp":"2025-02-08T15:44:45.791Z","wallet":"H97toHKefZyd8aKDFWeitgFYYc7V1Soj5DcUu5Gf9Mnp"}
+{"level":"debug","message":"Checking balance","timestamp":"2025-02-08T15:44:45.795Z","tokenMint":"CrbhNV4SUon8QVgCyQg7Khgy6GgcEy8ACDjkKvPrpump","wallet":"H97toHKefZyd8aKDFWeitgFYYc7V1Soj5DcUu5Gf9Mnp"}
+{"level":"debug","message":"Getting token account","timestamp":"2025-02-08T15:44:45.798Z","tokenAccountAddress":"HY8gPxMybzDX14voxVqmTLpER3WG7cgB3UWZA9ATEF9v"}
+{"balance":90214,"betAmount":100,"level":"info","message":"Balance check","timestamp":"2025-02-08T15:44:48.026Z","wallet":"H97toHKefZyd8aKDFWeitgFYYc7V1Soj5DcUu5Gf9Mnp"}
+{"level":"info","message":"Game result generated","outcome":"lose","timestamp":"2025-02-08T15:44:48.026Z","wallet":"H97toHKefZyd8aKDFWeitgFYYc7V1Soj5DcUu5Gf9Mnp"}
+{"betAmount":100,"level":"info","message":"Play validated successfully","outcome":"lose","playerStats":{"lastPlay":1739029485794,"playCount":1,"totalBets":100},"timestamp":"2025-02-08T15:44:48.028Z","wallet":"H97toHKefZyd8aKDFWeitgFYYc7V1Soj5DcUu5Gf9Mnp"}
+{"betAmount":100,"level":"info","message":"Received play validation request","timestamp":"2025-02-08T15:57:59.963Z","wallet":"H97toHKefZyd8aKDFWeitgFYYc7V1Soj5DcUu5Gf9Mnp"}
+{"level":"debug","message":"Checking balance","timestamp":"2025-02-08T15:57:59.970Z","tokenMint":"CrbhNV4SUon8QVgCyQg7Khgy6GgcEy8ACDjkKvPrpump","wallet":"H97toHKefZyd8aKDFWeitgFYYc7V1Soj5DcUu5Gf9Mnp"}
+{"level":"debug","message":"Getting token account","timestamp":"2025-02-08T15:57:59.980Z","tokenAccountAddress":"HY8gPxMybzDX14voxVqmTLpER3WG7cgB3UWZA9ATEF9v"}
+{"balance":90114,"betAmount":100,"level":"info","message":"Balance check","timestamp":"2025-02-08T15:58:00.678Z","wallet":"H97toHKefZyd8aKDFWeitgFYYc7V1Soj5DcUu5Gf9Mnp"}
+{"betAmount":100,"level":"info","message":"Play validated successfully","outcome":"lose","playerStats":{"lastPlay":1739030279969,"playCount":1,"totalBets":100},"timestamp":"2025-02-08T15:58:00.679Z","wallet":"H97toHKefZyd8aKDFWeitgFYYc7V1Soj5DcUu5Gf9Mnp"}
+{"betAmount":100,"level":"info","message":"Received play validation request","timestamp":"2025-02-08T16:03:19.911Z","wallet":"2opY8Wmo1rhaXsUGgqSnGtYJiVyLENTN6hsFmXTyxdoL"}
+{"level":"debug","message":"Checking balance","timestamp":"2025-02-08T16:03:19.920Z","tokenMint":"CrbhNV4SUon8QVgCyQg7Khgy6GgcEy8ACDjkKvPrpump","wallet":"2opY8Wmo1rhaXsUGgqSnGtYJiVyLENTN6hsFmXTyxdoL"}
+{"level":"debug","message":"Getting token account","timestamp":"2025-02-08T16:03:19.923Z","tokenAccountAddress":"XxGJqYegnv3bpPadvsF9qYKH4gCMf1xbNeAXzNF6ECZ"}
+{"balance":2411232.322944,"betAmount":100,"level":"info","message":"Balance check","timestamp":"2025-02-08T16:03:20.319Z","wallet":"2opY8Wmo1rhaXsUGgqSnGtYJiVyLENTN6hsFmXTyxdoL"}
+{"betAmount":100,"level":"info","message":"Play validated successfully","outcome":"lose","playerStats":{"lastPlay":1739030599920,"playCount":1,"totalBets":100},"timestamp":"2025-02-08T16:03:20.321Z","wallet":"2opY8Wmo1rhaXsUGgqSnGtYJiVyLENTN6hsFmXTyxdoL"}
+{"betAmount":100,"level":"info","message":"Received play validation request","timestamp":"2025-02-08T16:03:48.085Z","wallet":"2opY8Wmo1rhaXsUGgqSnGtYJiVyLENTN6hsFmXTyxdoL"}
+{"level":"debug","message":"Checking balance","timestamp":"2025-02-08T16:03:48.086Z","tokenMint":"CrbhNV4SUon8QVgCyQg7Khgy6GgcEy8ACDjkKvPrpump","wallet":"2opY8Wmo1rhaXsUGgqSnGtYJiVyLENTN6hsFmXTyxdoL"}
+{"level":"debug","message":"Getting token account","timestamp":"2025-02-08T16:03:48.088Z","tokenAccountAddress":"XxGJqYegnv3bpPadvsF9qYKH4gCMf1xbNeAXzNF6ECZ"}
+{"balance":2411232.322944,"betAmount":100,"level":"info","message":"Balance check","timestamp":"2025-02-08T16:03:48.627Z","wallet":"2opY8Wmo1rhaXsUGgqSnGtYJiVyLENTN6hsFmXTyxdoL"}
+{"betAmount":100,"level":"info","message":"Play validated successfully","outcome":"lose","playerStats":{"lastPlay":1739030628085,"playCount":2,"totalBets":200},"timestamp":"2025-02-08T16:03:48.628Z","wallet":"2opY8Wmo1rhaXsUGgqSnGtYJiVyLENTN6hsFmXTyxdoL"}
+{"betAmount":100,"level":"info","message":"Received play validation request","timestamp":"2025-02-08T16:03:58.358Z","wallet":"2opY8Wmo1rhaXsUGgqSnGtYJiVyLENTN6hsFmXTyxdoL"}
+{"level":"debug","message":"Checking balance","timestamp":"2025-02-08T16:03:58.359Z","tokenMint":"CrbhNV4SUon8QVgCyQg7Khgy6GgcEy8ACDjkKvPrpump","wallet":"2opY8Wmo1rhaXsUGgqSnGtYJiVyLENTN6hsFmXTyxdoL"}
+{"level":"debug","message":"Getting token account","timestamp":"2025-02-08T16:03:58.362Z","tokenAccountAddress":"XxGJqYegnv3bpPadvsF9qYKH4gCMf1xbNeAXzNF6ECZ"}
+{"balance":2411132.322944,"betAmount":100,"level":"info","message":"Balance check","timestamp":"2025-02-08T16:03:58.533Z","wallet":"2opY8Wmo1rhaXsUGgqSnGtYJiVyLENTN6hsFmXTyxdoL"}
+{"betAmount":100,"jackpotAmount":100,"level":"info","message":"Jackpot won - game paused","timestamp":"2025-02-08T16:03:58.534Z","wallet":"2opY8Wmo1rhaXsUGgqSnGtYJiVyLENTN6hsFmXTyxdoL"}
+{"betAmount":100,"level":"info","message":"Play validated successfully","outcome":"jackpot","playerStats":{"lastPlay":1739030638359,"playCount":3,"totalBets":300},"timestamp":"2025-02-08T16:03:58.535Z","wallet":"2opY8Wmo1rhaXsUGgqSnGtYJiVyLENTN6hsFmXTyxdoL"}
+{"betAmount":100,"level":"info","message":"Received play validation request","timestamp":"2025-02-08T16:04:12.645Z","wallet":"2opY8Wmo1rhaXsUGgqSnGtYJiVyLENTN6hsFmXTyxdoL"}
+{"level":"warn","message":"Game paused due to pending jackpot payout","timestamp":"2025-02-08T16:04:12.646Z"}
+{"betAmount":100,"level":"info","message":"Received play validation request","timestamp":"2025-02-08T16:04:18.529Z","wallet":"2opY8Wmo1rhaXsUGgqSnGtYJiVyLENTN6hsFmXTyxdoL"}
+{"level":"warn","message":"Game paused due to pending jackpot payout","timestamp":"2025-02-08T16:04:18.530Z"}
+{"betAmount":100,"level":"info","message":"Received play validation request","timestamp":"2025-02-08T16:06:24.485Z","wallet":"EBTvDaV5eHmrumHTMABxcWFXyri9c9VPGSaqYYfsQ64F"}
+{"level":"warn","message":"Game paused due to pending jackpot payout","timestamp":"2025-02-08T16:06:24.486Z"}
+{"betAmount":100,"level":"info","message":"Received play validation request","timestamp":"2025-02-08T17:47:38.217Z","wallet":"EBTvDaV5eHmrumHTMABxcWFXyri9c9VPGSaqYYfsQ64F"}
+{"level":"info","message":"Connected to RPC endpoint: https://solana-mainnet.rpc.tatum.io","timestamp":"2025-02-08T17:47:40.282Z"}
+{"level":"debug","message":"Checking balance","timestamp":"2025-02-08T17:47:40.283Z","tokenMint":"CrbhNV4SUon8QVgCyQg7Khgy6GgcEy8ACDjkKvPrpump","wallet":"EBTvDaV5eHmrumHTMABxcWFXyri9c9VPGSaqYYfsQ64F"}
+{"level":"debug","message":"Getting token account","timestamp":"2025-02-08T17:47:40.413Z","tokenAccountAddress":"5ZC5bXUwCXqb5eiZuwXBvMd3ckTPgcFZrHWN4tMLLrsS"}
+{"balance":182454,"betAmount":100,"level":"info","message":"Balance check","timestamp":"2025-02-08T17:47:42.532Z","wallet":"EBTvDaV5eHmrumHTMABxcWFXyri9c9VPGSaqYYfsQ64F"}
+{"betAmount":100,"level":"info","message":"Play validated successfully","outcome":"lose","playerStats":{"lastPlay":1739036860282,"playCount":1,"totalBets":100},"timestamp":"2025-02-08T17:47:42.542Z","wallet":"EBTvDaV5eHmrumHTMABxcWFXyri9c9VPGSaqYYfsQ64F"}
+{"betAmount":100,"level":"info","message":"Received play validation request","timestamp":"2025-02-08T17:48:56.168Z","wallet":"EBTvDaV5eHmrumHTMABxcWFXyri9c9VPGSaqYYfsQ64F"}
+{"level":"warn","message":"Wallet has pending transaction","timestamp":"2025-02-08T17:48:56.169Z","wallet":"EBTvDaV5eHmrumHTMABxcWFXyri9c9VPGSaqYYfsQ64F"}
+{"betAmount":100,"level":"info","message":"Received play validation request","timestamp":"2025-02-08T17:49:45.558Z","wallet":"EBTvDaV5eHmrumHTMABxcWFXyri9c9VPGSaqYYfsQ64F"}
+{"level":"info","message":"Connected to RPC endpoint: https://solana-mainnet.rpc.tatum.io","timestamp":"2025-02-08T17:49:46.234Z"}
+{"level":"debug","message":"Checking balance","timestamp":"2025-02-08T17:49:46.236Z","tokenMint":"CrbhNV4SUon8QVgCyQg7Khgy6GgcEy8ACDjkKvPrpump","wallet":"EBTvDaV5eHmrumHTMABxcWFXyri9c9VPGSaqYYfsQ64F"}
+{"level":"debug","message":"Getting token account","timestamp":"2025-02-08T17:49:46.240Z","tokenAccountAddress":"5ZC5bXUwCXqb5eiZuwXBvMd3ckTPgcFZrHWN4tMLLrsS"}
+{"balance":182454,"betAmount":100,"level":"info","message":"Balance check","timestamp":"2025-02-08T17:49:46.637Z","wallet":"EBTvDaV5eHmrumHTMABxcWFXyri9c9VPGSaqYYfsQ64F"}
+{"betAmount":100,"level":"info","message":"Play validated successfully","outcome":"lose","playerStats":{"lastPlay":1739036986235,"playCount":1,"totalBets":100},"timestamp":"2025-02-08T17:49:46.639Z","wallet":"EBTvDaV5eHmrumHTMABxcWFXyri9c9VPGSaqYYfsQ64F"}
+{"betAmount":100,"level":"info","message":"Received play validation request","timestamp":"2025-02-08T18:07:48.759Z","wallet":"EBTvDaV5eHmrumHTMABxcWFXyri9c9VPGSaqYYfsQ64F"}
+{"level":"debug","message":"Checking balance","timestamp":"2025-02-08T18:07:48.763Z","tokenMint":"CrbhNV4SUon8QVgCyQg7Khgy6GgcEy8ACDjkKvPrpump","wallet":"EBTvDaV5eHmrumHTMABxcWFXyri9c9VPGSaqYYfsQ64F"}
+{"level":"debug","message":"Getting token account","timestamp":"2025-02-08T18:07:48.774Z","tokenAccountAddress":"5ZC5bXUwCXqb5eiZuwXBvMd3ckTPgcFZrHWN4tMLLrsS"}
+{"balance":182454,"betAmount":100,"level":"info","message":"Balance check","timestamp":"2025-02-08T18:07:49.571Z","wallet":"EBTvDaV5eHmrumHTMABxcWFXyri9c9VPGSaqYYfsQ64F"}
+{"betAmount":100,"level":"info","message":"Play validated successfully","outcome":"lose","playerStats":{"lastPlay":1739038068762,"playCount":1,"totalBets":100},"timestamp":"2025-02-08T18:07:49.573Z","wallet":"EBTvDaV5eHmrumHTMABxcWFXyri9c9VPGSaqYYfsQ64F"}
+{"betAmount":100,"level":"info","message":"Received play validation request","timestamp":"2025-02-08T18:08:11.803Z","wallet":"EBTvDaV5eHmrumHTMABxcWFXyri9c9VPGSaqYYfsQ64F"}
+{"level":"debug","message":"Checking balance","timestamp":"2025-02-08T18:08:11.804Z","tokenMint":"CrbhNV4SUon8QVgCyQg7Khgy6GgcEy8ACDjkKvPrpump","wallet":"EBTvDaV5eHmrumHTMABxcWFXyri9c9VPGSaqYYfsQ64F"}
+{"level":"debug","message":"Getting token account","timestamp":"2025-02-08T18:08:11.806Z","tokenAccountAddress":"5ZC5bXUwCXqb5eiZuwXBvMd3ckTPgcFZrHWN4tMLLrsS"}
+{"balance":182454,"betAmount":100,"level":"info","message":"Balance check","timestamp":"2025-02-08T18:08:11.967Z","wallet":"EBTvDaV5eHmrumHTMABxcWFXyri9c9VPGSaqYYfsQ64F"}
+{"betAmount":100,"level":"info","message":"Play validated successfully","outcome":"lose","playerStats":{"lastPlay":1739038091804,"playCount":2,"totalBets":200},"timestamp":"2025-02-08T18:08:11.968Z","wallet":"EBTvDaV5eHmrumHTMABxcWFXyri9c9VPGSaqYYfsQ64F"}
+{"betAmount":100,"level":"info","message":"Received play validation request","timestamp":"2025-02-08T18:08:21.463Z","wallet":"EBTvDaV5eHmrumHTMABxcWFXyri9c9VPGSaqYYfsQ64F"}
+{"level":"debug","message":"Checking balance","timestamp":"2025-02-08T18:08:21.464Z","tokenMint":"CrbhNV4SUon8QVgCyQg7Khgy6GgcEy8ACDjkKvPrpump","wallet":"EBTvDaV5eHmrumHTMABxcWFXyri9c9VPGSaqYYfsQ64F"}
+{"level":"debug","message":"Getting token account","timestamp":"2025-02-08T18:08:21.467Z","tokenAccountAddress":"5ZC5bXUwCXqb5eiZuwXBvMd3ckTPgcFZrHWN4tMLLrsS"}
+{"balance":182454,"betAmount":100,"level":"info","message":"Balance check","timestamp":"2025-02-08T18:08:21.647Z","wallet":"EBTvDaV5eHmrumHTMABxcWFXyri9c9VPGSaqYYfsQ64F"}
+{"betAmount":100,"level":"info","message":"Play validated successfully","outcome":"lose","playerStats":{"lastPlay":1739038101463,"playCount":3,"totalBets":300},"timestamp":"2025-02-08T18:08:21.648Z","wallet":"EBTvDaV5eHmrumHTMABxcWFXyri9c9VPGSaqYYfsQ64F"}
+{"betAmount":100,"level":"info","message":"Received play validation request","timestamp":"2025-02-08T18:09:14.142Z","wallet":"H97toHKefZyd8aKDFWeitgFYYc7V1Soj5DcUu5Gf9Mnp"}
+{"level":"debug","message":"Checking balance","timestamp":"2025-02-08T18:09:14.143Z","tokenMint":"CrbhNV4SUon8QVgCyQg7Khgy6GgcEy8ACDjkKvPrpump","wallet":"H97toHKefZyd8aKDFWeitgFYYc7V1Soj5DcUu5Gf9Mnp"}
+{"level":"debug","message":"Getting token account","timestamp":"2025-02-08T18:09:14.145Z","tokenAccountAddress":"HY8gPxMybzDX14voxVqmTLpER3WG7cgB3UWZA9ATEF9v"}
+{"balance":90014,"betAmount":100,"level":"info","message":"Balance check","timestamp":"2025-02-08T18:09:14.645Z","wallet":"H97toHKefZyd8aKDFWeitgFYYc7V1Soj5DcUu5Gf9Mnp"}
+{"betAmount":100,"level":"info","message":"Play validated successfully","outcome":"lose","playerStats":{"lastPlay":1739038154143,"playCount":1,"totalBets":100},"timestamp":"2025-02-08T18:09:14.646Z","wallet":"H97toHKefZyd8aKDFWeitgFYYc7V1Soj5DcUu5Gf9Mnp"}
+{"betAmount":100,"level":"info","message":"Received play validation request","timestamp":"2025-02-08T18:09:32.017Z","wallet":"H97toHKefZyd8aKDFWeitgFYYc7V1Soj5DcUu5Gf9Mnp"}
+{"level":"debug","message":"Checking balance","timestamp":"2025-02-08T18:09:32.018Z","tokenMint":"CrbhNV4SUon8QVgCyQg7Khgy6GgcEy8ACDjkKvPrpump","wallet":"H97toHKefZyd8aKDFWeitgFYYc7V1Soj5DcUu5Gf9Mnp"}
+{"level":"debug","message":"Getting token account","timestamp":"2025-02-08T18:09:32.021Z","tokenAccountAddress":"HY8gPxMybzDX14voxVqmTLpER3WG7cgB3UWZA9ATEF9v"}
+{"balance":89914,"betAmount":100,"level":"info","message":"Balance check","timestamp":"2025-02-08T18:09:32.408Z","wallet":"H97toHKefZyd8aKDFWeitgFYYc7V1Soj5DcUu5Gf9Mnp"}
+{"betAmount":100,"level":"info","message":"Play validated successfully","outcome":"lose","playerStats":{"lastPlay":1739038172018,"playCount":2,"totalBets":200},"timestamp":"2025-02-08T18:09:32.408Z","wallet":"H97toHKefZyd8aKDFWeitgFYYc7V1Soj5DcUu5Gf9Mnp"}
+{"betAmount":100,"level":"info","message":"Received play validation request","timestamp":"2025-02-08T18:09:42.472Z","wallet":"H97toHKefZyd8aKDFWeitgFYYc7V1Soj5DcUu5Gf9Mnp"}
+{"level":"debug","message":"Checking balance","timestamp":"2025-02-08T18:09:42.473Z","tokenMint":"CrbhNV4SUon8QVgCyQg7Khgy6GgcEy8ACDjkKvPrpump","wallet":"H97toHKefZyd8aKDFWeitgFYYc7V1Soj5DcUu5Gf9Mnp"}
+{"level":"debug","message":"Getting token account","timestamp":"2025-02-08T18:09:42.475Z","tokenAccountAddress":"HY8gPxMybzDX14voxVqmTLpER3WG7cgB3UWZA9ATEF9v"}
+{"balance":89914,"betAmount":100,"level":"info","message":"Balance check","timestamp":"2025-02-08T18:09:42.649Z","wallet":"H97toHKefZyd8aKDFWeitgFYYc7V1Soj5DcUu5Gf9Mnp"}
+{"betAmount":100,"jackpotAmount":100,"level":"info","message":"Jackpot won - game paused","timestamp":1739038182650,"wallet":"H97toHKefZyd8aKDFWeitgFYYc7V1Soj5DcUu5Gf9Mnp"}
+{"betAmount":100,"level":"info","message":"Play validated successfully","outcome":"jackpot","playerStats":{"lastPlay":1739038182472,"playCount":3,"totalBets":300},"timestamp":"2025-02-08T18:09:42.651Z","wallet":"H97toHKefZyd8aKDFWeitgFYYc7V1Soj5DcUu5Gf9Mnp"}
+{"betAmount":100,"level":"info","message":"Received play validation request","timestamp":"2025-02-08T18:09:57.918Z","wallet":"H97toHKefZyd8aKDFWeitgFYYc7V1Soj5DcUu5Gf9Mnp"}
+{"level":"warn","message":"Game paused due to pending jackpot payout","timestamp":"2025-02-08T18:09:57.919Z"}
+{"betAmount":100,"level":"info","message":"Received play validation request","timestamp":"2025-02-08T18:10:12.969Z","wallet":"H97toHKefZyd8aKDFWeitgFYYc7V1Soj5DcUu5Gf9Mnp"}
+{"level":"warn","message":"Game paused due to pending jackpot payout","timestamp":"2025-02-08T18:10:12.969Z"}
+{"betAmount":100,"level":"info","message":"Received play validation request","timestamp":"2025-02-08T18:11:42.876Z","wallet":"H97toHKefZyd8aKDFWeitgFYYc7V1Soj5DcUu5Gf9Mnp"}
+{"level":"warn","message":"Game paused due to pending jackpot payout","timestamp":"2025-02-08T18:11:42.877Z"}

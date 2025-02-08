@@ -30,86 +30,12 @@ const GAME_STATE = {
     isPaused: false
 };
 
-// RPC Endpoints configuration
-const RPC_ENDPOINTS = [
-    {
-        url: 'https://solana-mainnet.rpc.tatum.io',
-        priority: 1,
-        headers: {
-            'x-api-key': process.env.TATUM_API_KEY
-        }
-    },
-    {
-        url: 'https://api.mainnet-beta.solana.com',
-        priority: 2,
-    },
-    {
-        url: 'https://solana-api.projectserum.com',
-        priority: 3,
-    },
-    {
-        url: 'https://rpc.ankr.com/solana',
-        priority: 4,
-    },
-    {
-        url: 'https://mainnet.helius-rpc.com/?api-key=15319bf4-5b40-4958-ac8d-6313aa55eb92',
-        priority: 5,
+// Initialize Solana connection
+const connection = new Connection('https://solana-mainnet.rpc.tatum.io', {
+    httpHeaders: {
+        'x-api-key': process.env.TATUM_API_KEY
     }
-];
-
-// Function to create connection with fallback
-const createConnectionWithFallback = () => {
-    let currentEndpointIndex = 0;
-    let connection = null;
-
-    const tryConnect = async () => {
-        while (currentEndpointIndex < RPC_ENDPOINTS.length) {
-            const endpoint = RPC_ENDPOINTS[currentEndpointIndex];
-            try {
-                connection = new Connection(endpoint.url, {
-                    commitment: 'confirmed',
-                    httpHeaders: endpoint.headers || {},
-                    wsEndpoint: endpoint.wsEndpoint
-                });
-
-                // Test the connection
-                await connection.getSlot();
-                logger.info(`Connected to RPC endpoint: ${endpoint.url}`);
-                return connection;
-            } catch (error) {
-                logger.error(`Failed to connect to ${endpoint.url}:`, error);
-                currentEndpointIndex++;
-            }
-        }
-        throw new Error('All RPC endpoints failed');
-    };
-
-    return {
-        getConnection: async () => {
-            if (!connection) {
-                connection = await tryConnect();
-            }
-            return connection;
-        },
-        resetConnection: async () => {
-            currentEndpointIndex = 0;
-            connection = null;
-            return tryConnect();
-        }
-    };
-};
-
-const connectionManager = createConnectionWithFallback();
-
-// Modify the existing connection usage to use the connection manager
-const getConnection = async () => {
-    try {
-        return await connectionManager.getConnection();
-    } catch (error) {
-        logger.error('Failed to get connection:', error);
-        throw error;
-    }
-};
+});
 
 // Add logger configuration
 const logger = winston.createLogger({
@@ -172,7 +98,6 @@ app.post('/api/play/validate', validateWallet, async (req, res) => {
     });
 
     try {
-        const connection = await getConnection();
         // Check if game is paused due to pending jackpot
         if (GAME_STATE.isJackpotPending) {
             logger.warn('Game paused due to pending jackpot payout');
@@ -243,14 +168,6 @@ app.post('/api/play/validate', validateWallet, async (req, res) => {
                 return res.status(400).json({ error: 'Insufficient balance' });
             }
         } catch (balanceError) {
-            // If the error is RPC-related, try resetting the connection
-            if (balanceError.message.includes('failed to get account info') || 
-                balanceError.message.includes('failed to send request')) {
-                logger.warn('RPC error, attempting to reset connection');
-                await connectionManager.resetConnection();
-                return res.status(503).json({ error: 'Service temporarily unavailable, please try again' });
-            }
-            
             logger.error('Balance check failed', { 
                 wallet, 
                 error: balanceError.message,
@@ -317,7 +234,7 @@ app.post('/api/play/confirm', validateWallet, async (req, res) => {
 
     try {
         // Verify transaction
-        const tx = await connectionManager.getConnection().getTransaction(signature, {
+        const tx = await connection.getTransaction(signature, {
             commitment: 'confirmed'
         });
 
