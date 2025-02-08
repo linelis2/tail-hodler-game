@@ -1,0 +1,29 @@
+{
+  "name": "game-token-system-server",
+  "version": "1.0.0",
+  "description": "Backend server for TailHodler game",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@solana/spl-token": "^0.3.9",
+    "@solana/web3.js": "^1.87.6",
+    "@tatumio/tatum": "^4.1.17",
+    "axios": "^1.6.7",
+    "cors": "^2.8.5",
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "express-rate-limit": "^7.1.5",
+    "helmet": "^7.1.0",
+    "scheduler": "^0.25.0",
+    "winston": "^3.11.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.2"
+  }
+}

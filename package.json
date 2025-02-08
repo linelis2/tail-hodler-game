@@ -1,0 +1,5 @@
+{
+  "dependencies": {
+    "@solana/wallet-adapter-wallets": "^0.19.23"
+  }
+}
