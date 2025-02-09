@@ -225,9 +225,12 @@ const TokenToss = () => {
             outcome,
             amount,
             timestamp: new Date().toLocaleTimeString(),
-            date: new Date().toLocaleDateString()
+            date: new Date().toLocaleDateString(),
+            isJackpot: outcome === 'jackpot',
+            winAmount: outcome === 'jackpot' ? jackpotBalance * getJackpotPercentage(amount) : 0
         };
         setGameHistory(prev => [newEntry, ...prev].slice(0, 10));
+        localStorage.setItem('tailhodler_gameHistory', JSON.stringify([newEntry, ...gameHistory].slice(0, 10)));
     };
 
     const getJackpotPercentage = (amount) => {
@@ -403,13 +406,18 @@ const TokenToss = () => {
         <div style={{
             background: '#141414',
             borderRadius: '16px',
-            padding: '2rem',
-            maxWidth: '480px',
+            padding: '1rem',
+            maxWidth: '100%',
             width: '100%',
             margin: '0 auto',
             color: '#FFFFFF',
             border: '1px solid rgba(0, 246, 255, 0.1)',
             boxShadow: '0 8px 32px rgba(0, 0, 0, 0.4)',
+            boxSizing: 'border-box',
+            '@media (min-width: 480px)': {
+                padding: '2rem',
+                maxWidth: '480px',
+            }
         }}>
             <AdminControls 
                 publicKey={publicKey} 

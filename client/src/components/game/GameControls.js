@@ -28,14 +28,16 @@ const GameControls = ({
                 alignItems: 'center',
                 gap: '0.5rem',
                 textShadow: betAmount === amount ? '0 2px 4px rgba(0, 246, 255, 0.4)' : 'none',
-                boxShadow: betAmount === amount ? '0 0 12px rgba(0, 246, 255, 0.2)' : 'none'
+                boxShadow: betAmount === amount ? '0 0 12px rgba(0, 246, 255, 0.2)' : 'none',
+                width: '100%',
+                minWidth: '120px'
             }}
         >
             <div style={{
                 display: 'flex',
                 alignItems: 'center',
                 gap: '0.5rem',
-                fontSize: '1.125rem',
+                fontSize: '1rem',
                 fontWeight: betAmount === amount ? '600' : '500',
                 height: '24px'
             }}>
@@ -67,17 +69,19 @@ const GameControls = ({
             display: 'flex',
             flexDirection: 'column',
             gap: '1rem',
-            marginBottom: '1.5rem'
+            marginBottom: '1.5rem',
+            width: '100%'
         }}>
             <div style={{
                 display: 'grid',
-                gridTemplateColumns: 'repeat(2, 1fr)',
-                gap: '0.5rem'
+                gridTemplateColumns: 'repeat(auto-fit, minmax(140px, 1fr))',
+                gap: '0.75rem',
+                width: '100%'
             }}>
-                <BetButton amount={100} icon="🐱" percentage={10} />
-                <BetButton amount={1000} icon="🐕" percentage={30} />
-                <BetButton amount={10000} icon="😺" percentage={60} />
-                <BetButton amount={100000} icon="🐶" percentage={100} />
+                <BetButton amount={100} icon="💎" percentage={10} />
+                <BetButton amount={1000} icon="🏆" percentage={30} />
+                <BetButton amount={10000} icon="👑" percentage={60} />
+                <BetButton amount={100000} icon="⭐" percentage={100} />
             </div>
 
             <button
@@ -117,11 +121,7 @@ const GameControls = ({
                     gap: '0.5rem'
                 }}>
                     {isProcessing ? 'Processing...' : 
-                     cooldownTime > 0 ? `WAIT ${cooldownTime}s` : (
-                        <>
-                            🐕 TAIL VS TAIL 🐱
-                        </>
-                    )}
+                     cooldownTime > 0 ? `WAIT ${cooldownTime}s` : 'STRIKE TAIL'}
                 </span>
                 <span style={{
                     fontSize: '0.7rem',
@@ -131,7 +131,7 @@ const GameControls = ({
                 }}>
                     {cooldownTime > 0 ? 
                         'Cooldown time remaining...' : 
-                        'Dog vs Cat - Who will win? 🎯'}
+                        'Test your luck and win big! 🎯'}
                 </span>
             </button>
         </div>
